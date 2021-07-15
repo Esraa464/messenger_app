@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-class MessangerScreen extends StatelessWidget {
+class MessengerScreen extends StatelessWidget {
   Widget buildStoryItem() => Container(
   width: 60,
   child: Column(
