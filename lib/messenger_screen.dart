@@ -166,7 +166,9 @@ class MessangerScreen extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child:
               SingleChildScrollView(
-                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
                  Container(
                 padding: EdgeInsets.all(5),
                 decoration: BoxDecoration(
@@ -213,115 +215,4 @@ class MessangerScreen extends StatelessWidget {
   }
 }
 
-//  Container(
-//                 width: 60,
-//                 child: Column(
-//                   children: [
-//                     Stack(
-//                       alignment: AlignmentDirectional.bottomEnd,
-//                       children: [
-//                         CircleAvatar(
-//                           radius: 30.0,
-//                           backgroundImage: NetworkImage(
-//                               'https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85'),
-//                         ),
-//                         // CircleAvatar(
-//                         //   radius:7,
-//                         //   backgroundColor:
-//                         //   Colors.black,
-//                         // ),
-//                         Padding(
-//                           padding: const EdgeInsetsDirectional.only(
-//                             bottom: 3.0,
-//                             end: 3.0,
-//                           ),
-//                           child: CircleAvatar(
-//                             radius: 6,
-//                             backgroundColor: Colors.green,
-//                           ),
-//                         ),
-//                       ],
-//                     ),
-//                     SizedBox(height: 6.0),
-//                     Text(
-//                       'Esraa Mansour Abdelrahman',
-//                       maxLines: 2,
-//                       overflow: TextOverflow.ellipsis,
-//                     )
-//                   ],
-//                 )),
-//             SizedBox(
-//               height: 20,
-//             ),
-//             Row(
-//               children: [
-//                 Stack(
-//                   alignment: AlignmentDirectional.bottomEnd,
-//                   children: [
-//                     CircleAvatar(
-//                       radius: 30.0,
-//                       backgroundImage: NetworkImage(
-//                           'https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85'),
-//                     ),
-//                     // CircleAvatar(
-//                     //   radius:7,
-//                     //   backgroundColor:
-//                     //   Colors.black,
-//                     // ),
-//                     Padding(
-//                       padding: const EdgeInsetsDirectional.only(
-//                         bottom: 3.0,
-//                         end: 3.0,
-//                       ),
-//                       child: CircleAvatar(
-//                         radius: 6,
-//                         backgroundColor: Colors.green,
-//                       ),
-//                     ),
-//                   ],
-//                 ),
-//                 SizedBox(
-//                   width: 10,
-//                 ),
-//                 Expanded(
-//                   child: Column(
-//                     crossAxisAlignment: CrossAxisAlignment.start,
-//                     children: [
-//                       Text(
-//                         'Esraa Mansour Esraa Mansour Esraa Mansour Esraa Mansour',
-//                         style: TextStyle(
-//                             fontSize: 17, fontWeight: FontWeight.bold),
-//                         overflow: TextOverflow.ellipsis,
-//                         maxLines: 1,
-//                       ),
-//                       SizedBox(
-//                         height: 5,
-//                       ),
-//                       Row(
-//                         children: [
-//                           Expanded(
-//                               child: Text(
-//                             'hello my name is esraa mansour abdelrahman abdelrazek',
-//                             maxLines: 2,
-//                             overflow: TextOverflow.ellipsis,
-//                           )),
-//                           Padding(
-//                             padding:
-//                                 const EdgeInsets.symmetric(horizontal: 5.0),
-//                             child: Container(
-//                               height: 7.0,
-//                               width: 7.0,
-//                               decoration: BoxDecoration(
-//                                 color: Colors.blue,
-//                                 shape: BoxShape.circle,
-//                               ),
-//                             ),
-//                           ),
-//                           Text('5:00 AM'),
-//                         ],
-//                       ),
-//                     ],
-//                   ),
-//                 )
-//               ],
-//             )
+
