@@ -16,11 +16,7 @@ class MessengerScreen extends StatelessWidget {
             backgroundImage: NetworkImage(
                 'https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85'),
           ),
-          // CircleAvatar(
-          //   radius:7,
-          //   backgroundColor:
-          //   Colors.black,
-          // ),
+
           Padding(
             padding: const EdgeInsetsDirectional.only(
               bottom: 3.0,
@@ -138,7 +134,7 @@ class MessengerScreen extends StatelessWidget {
                 'Chats',
                 style: TextStyle(fontSize: 25, color: Colors.black),
               ),
-              // IconButton(icon:Icons.camera_alt, onPressed:(){})
+
             ],
           ),
           actions: [
