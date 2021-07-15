@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Messenger App',
       debugShowCheckedModeBanner: false,
-      home: MessangerScreen (),
+      home: MessengerScreen (),
     );
     }
 }
